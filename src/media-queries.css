@@ -1,0 +1,21 @@
+/* Telas Pequenas */
+@media (min-width: 249px) and (max-width: 480px) 
+{
+    body {
+    background-color: blueviolet;
+}
+}
+
+/* Telas Médias */
+@media (min-width: 481px)  and (max-width: 1024px) 
+{
+    body {
+        background-color: greenyellow;
+}
+}
+
+/* Telas Grandes */
+@media screen and (min-width: 1024px) 
+{
+
+}

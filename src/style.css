@@ -10,13 +10,13 @@ a {
 }
 
 img {
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 
 header {
     background-color: tomato;
-    height: 150vh;
+    height: 100vh;
 }
 
 .nav_bar {
@@ -27,8 +27,7 @@ header {
 .banner_principal img {
     position: absolute;
     bottom: 50px;
-    left: 100px;
-
+    right: 10%;
 }
 
 .banner_principal h1 {
