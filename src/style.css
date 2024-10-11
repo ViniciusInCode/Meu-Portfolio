@@ -4,3 +4,44 @@ body {
     padding: 0;
     font-family: "Chakra Petch", sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+header {
+    background-color: tomato;
+    height: 150vh;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_principal img {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+
+}
+
+.banner_principal h1 {
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.nav_bar ul {
+    list-style: none;
+    display: flex;
+    padding: 5%;
+    margin: 10px;
+    padding: 5px;
+    gap: 10px;
+}
