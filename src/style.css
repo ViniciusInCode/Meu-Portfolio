@@ -7,15 +7,11 @@ body {
 
 a {
     text-decoration: none;
-}
-
-img {
-    width: 25%;
-    height: auto;
+    color: black;
 }
 
 header {
-    background-color: tomato;
+    background-color: #4071C5;
     height: 100vh;
 }
 
@@ -43,4 +39,10 @@ header {
     margin: 10px;
     padding: 5px;
     gap: 10px;
+}
+
+.nav_bar ul :hover {
+    background-color: #f0f0f0 ;
+    border-radius: 8px;
+    padding: auto;
 }
