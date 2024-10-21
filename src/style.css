@@ -14,35 +14,3 @@ header {
     background-color: #4071C5;
     height: 100vh;
 }
-
-.nav_bar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.banner_principal img {
-    position: absolute;
-    bottom: 50px;
-    right: 10%;
-}
-
-.banner_principal h1 {
-    color: black;
-    font-size: 1.5rem;
-    margin: 10px;
-}
-
-.nav_bar ul {
-    list-style: none;
-    display: flex;
-    padding: 5%;
-    margin: 10px;
-    padding: 5px;
-    gap: 10px;
-}
-
-.nav_bar ul :hover {
-    background-color: #f0f0f0 ;
-    border-radius: 8px;
-    padding: auto;
-}
