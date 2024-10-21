@@ -5,6 +5,11 @@ body {
     font-family: "Chakra Petch", sans-serif;
 }
 
+header {
+    background-color: #4071C5;
+    height: 100vh;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -16,15 +21,14 @@ ul {
     margin: 0;
 }
 
-header {
-    background-color: #4071C5;
-    height: 100vh;
-}
-
 .header-content {
-    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
 }
 
 .header-content h1 {
@@ -33,10 +37,21 @@ header {
     margin-bottom: -15px;
 }
 
-.nav-bar {
+.nav-bar ul {
     display: flex;
-    justify-content: center;
     padding: 10px 5px;
+    justify-content: center;
+}
+
+.nav-bar li {
+    margin: 1px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header-content img {
+    width: 30%;
+    border-radius: 50%;
 }
 
 footer {
