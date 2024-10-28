@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Chakra Petch", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -50,8 +51,16 @@ ul {
 }
 
 .header-content img {
-    width: 30%;
-    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 40%;
+}
+
+.sobre {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
 }
 
 footer {
