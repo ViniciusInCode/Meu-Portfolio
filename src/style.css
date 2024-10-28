@@ -32,9 +32,19 @@ ul {
 }
 
 .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: -15px;
+}
+
+.header-content h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin-top: 0;
 }
 
 .nav-bar ul {
@@ -50,8 +60,43 @@ ul {
 }
 
 .header-content img {
-    width: 30%;
-    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 40%;
+}
+
+.sobre {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#sobre {
+    margin: 5px 10px 0 10px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#sobre h2 {
+    margin-top: 10px;
+
+}
+#habilidades {
+    display: flex;
+    background-color: #f0f0f0;
+    color: black;
+    height: 100vh;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades .skill {
+    justify-content: center;
+    align-items: center;
+    background-color: #4071C5;
 }
 
 footer {
