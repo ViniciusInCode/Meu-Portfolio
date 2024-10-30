@@ -1,9 +1,12 @@
+html {
+    scroll-behavior: smooth;        /* Adiciona um efeito de rolagem suave (Teste de Funcionamento)*/
+}
+
 body {
     background-color: #f0f0f0;
     margin: 0;      /* Remove a margem padrão do body */
     padding: 0;     /* Remove o padding padrão do body */
     font-family: "Chakra Petch", sans-serif;        /* Define a fonte padrão do site */
-    scroll-behavior: smooth;        /* Adiciona um efeito de rolagem suave (Teste de Funcionamento)*/
 }
 
 header {
@@ -79,17 +82,77 @@ ul {
     font-size: 1.1rem;
 }
 
-/* Já existe no seu CSS, mas certifique-se que está presente */
-html {
-    scroll-behavior: smooth;
-}
-
 .header-content img {
     position: absolute;
     bottom: 50px;
     right: 50px;
     height: 40%;
 }
+
+.sobre-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobre-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sobre-header h2 {
+    font-size: 2.5rem;
+    color: #4071C5;
+    margin-bottom: 20px;
+}
+
+.separator {
+    width: 80px;
+    height: 4px;
+    background-color: #4071C5;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.sobre-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sobre-texto {
+    max-width: 800px;
+}
+
+.sobre-texto p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.sobre-adicional {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #4071C5;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .sobre-destaques {
+        flex-direction: column;
+    }
+
+    .destaque-item {
+        margin-bottom: 20px;
+    }
+
+    .sobre-texto p {
+        font-size: 1rem;
+    }
+}
+
 
 .sobre {
     background-color: #f0f0f0;
