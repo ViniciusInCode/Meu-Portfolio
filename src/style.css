@@ -418,3 +418,31 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+/* Adicione isso ao seu style.css */
+
+.theme-buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.theme-btn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #4071C5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-btn:hover {
+    background-color: #3461ad;
+}
+
+.theme-btn.active {
+    background-color: #2c5aa0;
+}
