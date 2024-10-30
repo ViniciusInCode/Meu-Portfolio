@@ -1,18 +1,18 @@
 body {
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    font-family: "Chakra Petch", sans-serif;
-    scroll-behavior: smooth;
+    margin: 0;      /* Remove a margem padrão do body */
+    padding: 0;     /* Remove o padding padrão do body */
+    font-family: "Chakra Petch", sans-serif;        /* Define a fonte padrão do site */
+    scroll-behavior: smooth;        /* Adiciona um efeito de rolagem suave (Teste de Funcionamento)*/
 }
 
 header {
-    background-color: #4071C5;
-    height: 100vh;
+    background-color: #4071C5;      /* Define a cor de fundo do Header */
+    height: 100vh;    /* Coloca o Header em 100% da altura da tela do usuário*/
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;      /* Remove o sublinhado padrão dos links */
     color: black;
 }
 
