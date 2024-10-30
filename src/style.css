@@ -100,6 +100,89 @@ ul {
     background-color: #4071C5;
 }
 
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+#habilidades .skills {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+#habilidades .skill {
+    background-color: #4071C5;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#habilidades .skill h3 {
+    margin-bottom: 15px;
+}
+
+/* Organização dos Projetos */
+#projetos {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#projetos .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#projetos .project {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+#projetos .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#projetos .project h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#projetos .project p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#projetos .project a {
+    display: inline-block;
+    color: #4071C5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#projetos .project a:hover {
+    color: black;
+}
+
+
 footer {
     background-color: #4071C5;
     color: white;
