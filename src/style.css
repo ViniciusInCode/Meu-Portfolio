@@ -83,16 +83,6 @@ ul {
     margin-top: 10px;
 
 }
-#habilidades {
-    display: flex;
-    background-color: #f0f0f0;
-    color: black;
-    height: 100vh;
-    text-align: center;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-}
 
 #habilidades .skill {
     justify-content: center;
