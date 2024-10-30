@@ -315,12 +315,6 @@ ul {
     background-color: #5a6268;
 }
 
-@media (max-width: 768px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 #contato {
     background-color: #ffffff;
     padding: 80px 20px;
@@ -406,65 +400,6 @@ ul {
     background-color: #3461ad;
 }
 
-.contato-form {
-    flex: 1;
-    background-color: #f8f9fa;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.contato-form h3 {
-    font-size: 1.5rem;
-    color: #4071C5;
-    margin-bottom: 25px;
-}
-
-.form-group {
-    position: relative;
-    margin-bottom: 25px;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.form-group textarea {
-    height: 120px;
-    resize: vertical;
-}
-
-.form-group label {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: #666;
-    transition: all 0.3s ease;
-    pointer-events: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    border-color: #4071C5;
-    outline: none;
-}
-
-.form-group input:focus + label,
-.form-group textarea:focus + label,
-.form-group input:valid + label,
-.form-group textarea:valid + label {
-    top: -20px;
-    left: 0;
-    font-size: 0.9rem;
-    color: #4071C5;
-}
-
 .btn-submit {
     width: 100%;
     padding: 12px;
@@ -475,20 +410,6 @@ ul {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.btn-submit:hover {
-    background-color: #3461ad;
-}
-
-@media (max-width: 768px) {
-    .contato-content {
-        flex-direction: column;
-    }
-
-    .contato-info {
-        grid-template-columns: 1fr;
-    }
 }
 
 footer {
