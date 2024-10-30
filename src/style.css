@@ -208,55 +208,287 @@ ul {
 
 /* Organização dos Projetos */
 #projetos {
-    background-color: #f0f0f0;
-    padding: 50px 0;
-    text-align: center;
+    background-color: #f8f9fa;
+    padding: 80px 20px;
 }
 
-#projetos .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.projetos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#projetos h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4071C5;
+    margin-bottom: 20px;
+}
+
+.separator {
+    width: 80px;
+    height: 4px;
+    background-color: #4071C5;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-#projetos .project {
+.project-card {
     background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-#projetos .project img {
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image img {
     width: 100%;
-    height: auto;
-    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #666;
     margin-bottom: 15px;
 }
 
-#projetos .project h3 {
-    font-size: 1.5rem;
-    margin: 0;
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
-#projetos .project p {
-    font-size: 1rem;
-    margin: 10px 0;
-}
-
-#projetos .project a {
-    display: inline-block;
+.project-tech span {
+    background-color: #e9ecef;
     color: #4071C5;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
 }
 
-#projetos .project a:hover {
-    color: black;
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4071C5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3461ad;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+#contato {
+    background-color: #ffffff;
+    padding: 80px 20px;
+}
+
+.contato-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contato-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contato-header h2 {
+    font-size: 2.5rem;
+    color: #4071C5;
+    margin-bottom: 20px;
+}
+
+.contato-intro {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+.contato-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.contato-info {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contato-card {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contato-card:hover {
+    transform: translateY(-5px);
+}
+
+.contato-card i {
+    font-size: 2rem;
+    color: #4071C5;
+    margin-bottom: 15px;
+}
+
+.contato-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contato-card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn-contato {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #4071C5;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-contato:hover {
+    background-color: #3461ad;
+}
+
+.contato-form {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contato-form h3 {
+    font-size: 1.5rem;
+    color: #4071C5;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form-group label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4071C5;
+    outline: none;
+}
+
+.form-group input:focus + label,
+.form-group textarea:focus + label,
+.form-group input:valid + label,
+.form-group textarea:valid + label {
+    top: -20px;
+    left: 0;
+    font-size: 0.9rem;
+    color: #4071C5;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #4071C5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #3461ad;
+}
+
+@media (max-width: 768px) {
+    .contato-content {
+        flex-direction: column;
+    }
+
+    .contato-info {
+        grid-template-columns: 1fr;
+    }
 }
 
 footer {
